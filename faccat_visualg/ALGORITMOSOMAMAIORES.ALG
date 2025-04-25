@@ -47,5 +47,8 @@ fimse
 se (numero3 > numero2) e (numero3 < numero1) entao
 segundoNumeroMaior <- numero3
 fimse
+
 escreval("a soma dos dois maiores numeros é: ", numeroMaior + segundoNumeroMaior)
+
+
 Fimalgoritmo
