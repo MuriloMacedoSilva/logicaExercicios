@@ -22,8 +22,12 @@ Inicio
    leia(pontosTime2)
    se (pontosTime1 > pontosTime2) entao
       escreval("o time vencedor é o: ", time1)
-   senao
+   fimse
+   se (pontosTime2 > pontosTime1) entao
       escreval("o time vencedor é o: ", time2)
+   fimse
+   se (pontosTime1 = pontosTime2) entao
+      escreval("EMPATE ")
    fimse
 
 Fimalgoritmo
